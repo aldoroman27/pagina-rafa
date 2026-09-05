@@ -7,12 +7,15 @@ export default function Navbar() {
     <>
       <nav className="bg-white shadow-sm sticky top-0 z-40 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-20 items-center relative">
+          
+          {/* Sistema de 3 columnas para evitar choques en móviles */}
+          <div className="flex justify-between h-20 items-center">
             
-            <div className="flex items-center w-1/3">
+            {/* Izquierda: Hamburguesa */}
+            <div className="w-1/4 flex justify-start">
               <button 
                 onClick={() => setIsOpen(true)}
-                className="p-2 rounded-md text-slate-600 hover:text-emerald-600 hover:bg-slate-100 focus:outline-none transition-colors"
+                className="p-2 -ml-2 rounded-md text-slate-600 hover:text-emerald-600 hover:bg-slate-100 focus:outline-none transition-colors"
               >
                 <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -20,17 +23,20 @@ export default function Navbar() {
               </button>
             </div>
 
-            <div className="flex-1 flex justify-center w-1/3 absolute left-1/2 transform -translate-x-1/2">
-              <a href="#" className="text-4xl font-black tracking-[0.2em] text-emerald-600 drop-shadow-sm">
-                GreenShield
+            {/* Centro: Logo responsivo */}
+            <div className="w-2/4 flex justify-center">
+              <a href="#" className="text-lg sm:text-2xl md:text-3xl font-black tracking-widest text-emerald-600 drop-shadow-sm truncate">
+                GREENSHIELD
               </a>
             </div>
 
-            <div className="hidden md:flex justify-end w-1/3">
-              <a href="#contacto" className="bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-2 rounded-full font-bold transition-all shadow-md hover:shadow-lg">
+            {/* Derecha: Botón de Contacto (Solo PC) */}
+            <div className="w-1/4 flex justify-end">
+              <a href="#contacto" className="hidden md:inline-block bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-2 rounded-full font-bold transition-all shadow-md hover:shadow-lg">
                 Contacto
               </a>
             </div>
+
           </div>
         </div>
       </nav>
