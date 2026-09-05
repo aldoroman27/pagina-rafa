@@ -35,7 +35,7 @@ export default function Auditor() {
 
           {/* Columna de Textos y Argumentos de Venta */}
           <div>
-            <h2 className="text-emerald-600 font-bold tracking-widest uppercase text-sm mb-3">Por qué elegirnos</h2>
+            <h2 className="text-emerald-600 font-bold tracking-widest uppercase text-sm mb-3">¿Por qué elegirnos?</h2>
             <h3 className="text-3xl sm:text-4xl font-black text-slate-900 mb-6 leading-tight">
               Metodología probada para la <span className="text-emerald-600">continuidad de tu negocio.</span>
             </h3>

@@ -39,7 +39,7 @@ export default function Hero() {
                 <p className="text-slate-500 text-xs sm:text-sm mt-1">Aprobaciones</p>
               </div>
               <div>
-                <h3 className="text-3xl sm:text-4xl font-black text-slate-900">+10</h3>
+                <h3 className="text-3xl sm:text-4xl font-black text-slate-900">+5</h3>
                 <p className="text-slate-500 text-xs sm:text-sm mt-1">Años de Experiencia</p>
               </div>
             </div>

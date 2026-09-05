@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar/Navbar"
 import Hero from "./components/Hero"
+import Certificaciones from "./components/Certificaciones";
 import Services from "./components/Services"
 import Auditor from "./components/Auditor";
 import Contacto from "./components/Contacto";
@@ -12,6 +13,7 @@ export default function App() {
       <main>
         <Hero />
         <Services />
+        <Certificaciones/>
         <Auditor />
         <Contacto />
       </main>
