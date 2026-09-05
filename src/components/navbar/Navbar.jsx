@@ -22,7 +22,7 @@ export default function Navbar() {
 
             <div className="flex-1 flex justify-center w-1/3 absolute left-1/2 transform -translate-x-1/2">
               <a href="#" className="text-4xl font-black tracking-[0.2em] text-emerald-600 drop-shadow-sm">
-                RMR
+                GreenShield
               </a>
             </div>
 
@@ -64,7 +64,7 @@ export default function Navbar() {
         <div className="flex-1 px-4 py-8 space-y-4">
           <a onClick={() => setIsOpen(false)} href="#inicio" className="block px-4 py-3 rounded-xl text-lg font-semibold text-slate-700 hover:text-emerald-600 hover:bg-emerald-50 transition-all">Inicio</a>
           <a onClick={() => setIsOpen(false)} href="#experiencia" className="block px-4 py-3 rounded-xl text-lg font-semibold text-slate-700 hover:text-emerald-600 hover:bg-emerald-50 transition-all">Experiencia</a>
-          <a onClick={() => setIsOpen(false)} href="#auditor" className="block px-4 py-3 rounded-xl text-lg font-semibold text-slate-700 hover:text-emerald-600 hover:bg-emerald-50 transition-all">El Auditor</a>
+          <a onClick={() => setIsOpen(false)} href="#auditor" className="block px-4 py-3 rounded-xl text-lg font-semibold text-slate-700 hover:text-emerald-600 hover:bg-emerald-50 transition-all">¿Por qué elegirnos?</a>
           
           <div className="pt-4 mt-4 border-t border-slate-100 md:hidden">
             <a onClick={() => setIsOpen(false)} href="#contacto" className="block w-full text-center bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 rounded-full font-bold transition-all shadow-md">

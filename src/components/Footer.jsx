@@ -8,7 +8,7 @@ export default function Footer() {
           
           <div className="md:col-span-2">
             <a href="#" className="text-3xl font-black tracking-[0.2em] text-emerald-600 inline-block mb-4">
-              RMR
+              Greenshield
             </a>
             <p className="text-slate-600 max-w-sm mb-6">
               Expertos en auditoría, gestión y cumplimiento normativo ambiental. Protegemos tu industria y el entorno con rigor técnico y certeza legal.
@@ -19,7 +19,7 @@ export default function Footer() {
             <h4 className="text-slate-900 font-bold mb-4">Navegación</h4>
             <ul className="space-y-2">
               <li><a href="#experiencia" className="text-slate-600 hover:text-emerald-600 transition-colors text-sm">Servicios Ambientales</a></li>
-              <li><a href="#auditor" className="text-slate-600 hover:text-emerald-600 transition-colors text-sm">El Auditor</a></li>
+              <li><a href="#auditor" className="text-slate-600 hover:text-emerald-600 transition-colors text-sm">¿Por qué elegirnos?</a></li>
               <li><a href="#contacto" className="text-slate-600 hover:text-emerald-600 transition-colors text-sm">Contacto</a></li>
             </ul>
           </div>
@@ -36,7 +36,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm text-center md:text-left">
-            &copy; {currentYear} RMR Auditoría Ambiental. Todos los derechos reservados.
+            &copy; {currentYear} GreenShield Auditoría Ambiental. Todos los derechos reservados.
           </p>
           <p className="text-slate-500 text-sm flex items-center gap-1">
             Diseñado con <span className="text-emerald-500">&hearts;</span> para el sector industrial.
