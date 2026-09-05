@@ -33,13 +33,13 @@ export default function Footer() {
           </div>
 
         </div>
-
-        <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-slate-500 text-sm text-center md:text-left">
-            &copy; {currentYear} GreenShield Consultoría. Todos los derechos reservados.
+        {/*Linea divisora del resto de texto informativo*/}
+        <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
+          <p className="text-slate-500 text-sm">
+            &copy; {currentYear} Greenshield Consultoría. Todos los derechos reservados.
           </p>
-          <p className="text-slate-500 text-sm flex items-center gap-1">
-            Diseñado con <span className="text-emerald-500">profesionalismo</span> para el sector industrial.
+          <p className="text-slate-500 text-sm">
+            Diseñado con <span className="text-emerald-600 font-semibold">profesionalismo</span> para el sector industrial.
           </p>
         </div>
       </div>

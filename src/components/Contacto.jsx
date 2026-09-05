@@ -9,7 +9,7 @@ export default function Contacto() {
             Inicia tu proceso de <span className="text-emerald-600">regularización</span> hoy.
           </h3>
           <p className="text-slate-600 text-lg">
-            Déjanos tus datos y un especialista se pondrá en contacto contigo para evaluar las necesidades específicas de tu empresa.
+            Déjanos tus datos y uno de nuestros especialistas se pondrá en contacto contigo para evaluar las necesidades específicas de tu empresa.
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function Contacto() {
                   </div>
                   <div>
                     <p className="text-slate-900 font-semibold">Correo Electrónico</p>
-                    <p className="text-slate-600 mt-1">contacto@rmr-auditoria.com</p>
+                    <p className="text-slate-600 mt-1">contacto@greenshield.mx</p>
                   </div>
                 </div>
               </div>
