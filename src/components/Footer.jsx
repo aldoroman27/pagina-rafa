@@ -7,11 +7,18 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           
           <div className="md:col-span-2">
-            <a href="#" className="text-3xl font-black tracking-[0.2em] text-emerald-600 inline-block mb-4">
-              Greenshield
+            <a href="#" className="flex items-center gap-4 mb-6">
+              <img 
+                src="/Firefly.png" 
+                alt="Logo Greenshield Consultoría" 
+                className="h-16 sm:h-20 object-contain"
+              />
+              <span className="text-2xl sm:text-3xl font-black tracking-[0.2em] text-emerald-600">
+                GREENSHIELD
+              </span>
             </a>
             <p className="text-slate-600 max-w-sm mb-6">
-              Expertos en seguridad industrial y gestión ambiental enfocada al cumplimiento, protegemos lo que mas quieres con rigor tecnico y certeza legal
+              Expertos en auditoría, gestión y cumplimiento normativo ambiental. Protegemos tu industria y el entorno con rigor técnico y certeza legal.
             </p>
           </div>
 

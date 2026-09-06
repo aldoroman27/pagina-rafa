@@ -23,14 +23,17 @@ export default function Navbar() {
               </button>
             </div>
 
-            {/* Centro: Logo responsivo con imagen */}
+            {/* Centro: Logo responsivo con imagen y texto */}
             <div className="w-2/4 flex justify-center">
-              <a href="#" className="flex items-center justify-center">
+              <a href="#" className="flex items-center justify-center gap-2 sm:gap-3">
                 <img 
                   src="/Firefly.png" 
-                  alt="Greenshield Consultoría" 
-                  className="h-30 sm:h-30 object-contain"
+                  alt="Escudo Greenshield" 
+                  className="h-10 sm:h-12 object-contain"
                 />
+                <span className="text-mid sm:text-2xl md:text-3xl font-black tracking-widest text-emerald-600 drop-shadow-sm truncate">
+                  GREENSHIELD
+                </span>
               </a>
             </div>
 
