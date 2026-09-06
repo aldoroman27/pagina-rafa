@@ -36,7 +36,7 @@ export default function Contacto() {
                   </div>
                   <div>
                     <p className="text-slate-900 font-semibold">Correo Electrónico</p>
-                    <p className="text-slate-600 mt-1">contacto@greenshield.mx</p>
+                    <p className="text-slate-600 mt-1">GreenShieldConsultoria@outlook.com</p>
                   </div>
                 </div>
               </div>
