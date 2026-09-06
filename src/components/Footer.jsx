@@ -11,7 +11,7 @@ export default function Footer() {
               Greenshield
             </a>
             <p className="text-slate-600 max-w-sm mb-6">
-              Expertos en auditoría, gestión y cumplimiento normativo ambiental. Protegemos tu industria y el entorno con rigor técnico y certeza legal.
+              Expertos en seguridad industrial y gestión ambiental enfocada al cumplimiento, protegemos lo que mas quieres con rigor tecnico y certeza legal
             </p>
           </div>
 

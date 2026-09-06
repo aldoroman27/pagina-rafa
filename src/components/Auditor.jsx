@@ -65,7 +65,7 @@ export default function Auditor() {
                 </div>
                 <div>
                   <h4 className="text-slate-900 font-bold text-xl mb-1">Respuesta Estratégica</h4>
-                  <p className="text-slate-600 text-sm">Actuamos de inmediato ante inspecciones, requerimientos urgentes y emplazamientos de SEMARNAT, PROFEPA y Protección Civil.</p>
+                  <p className="text-slate-600 text-sm">Actuamos de inmediato ante inspecciones, requerimientos urgentes y emplazamientos de SEMARNAT, SEMADET y Protección Civil.</p>
                 </div>
               </div>
 
