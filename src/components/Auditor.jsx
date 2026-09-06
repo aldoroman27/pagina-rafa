@@ -55,7 +55,7 @@ export default function Auditor() {
                 </div>
                 <div>
                   <h4 className="text-slate-900 font-bold text-xl mb-1">Rigor Técnico y Legal</h4>
-                  <p className="text-slate-600 text-sm">Dictámenes estructurados y fundamentados en la normatividad vigente, elaborados por peritos certificados.</p>
+                  <p className="text-slate-600 text-sm">Soluciones técnicas personalizadas que garantizan el cumplimiento legal, analizando a fondo las necesidades y el giro de cada cliente.</p>
                 </div>
               </div>
 

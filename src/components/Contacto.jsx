@@ -26,7 +26,7 @@ export default function Contacto() {
                   </div>
                   <div>
                     <p className="text-slate-900 font-semibold">Oficinas Centrales</p>
-                    <p className="text-slate-600 mt-1">Av. Industrial 1234, Parque Tecnológico,<br/>Guadalajara, Jalisco.</p>
+                    <p className="text-slate-600 mt-1">Cedros 2417, Colinas de los Robles<br/>Zapopan, Jalisco.</p>
                   </div>
                 </div>
 

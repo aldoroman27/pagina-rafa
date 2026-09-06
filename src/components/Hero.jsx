@@ -31,11 +31,11 @@ export default function Hero() {
 
             <div className="grid grid-cols-3 gap-4 sm:gap-6 mt-16 pt-8 border-t border-slate-200">
               <div>
-                <h3 className="text-3xl sm:text-4xl font-black text-slate-900">+150</h3>
+                <h3 className="text-3xl sm:text-4xl font-black text-slate-900">+100</h3>
                 <p className="text-slate-500 text-xs sm:text-sm mt-1">Auditorías Concluidas</p>
               </div>
               <div>
-                <h3 className="text-3xl sm:text-4xl font-black text-slate-900">100%</h3>
+                <h3 className="text-3xl sm:text-4xl font-black text-slate-900">99%</h3>
                 <p className="text-slate-500 text-xs sm:text-sm mt-1">Aprobaciones</p>
               </div>
               <div>
