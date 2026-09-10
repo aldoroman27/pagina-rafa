@@ -13,7 +13,7 @@ export default function Contacto() {
 
     try {
       // Hacemos la petición por detrás sin salir de la página
-      const response = await fetch(import.meta.env.FORMSPREE_URL, {
+      const response = await fetch(import.meta.env.VITE_FORMSPREE_URL, {
         method: 'POST',
         body: data,
         headers: {
@@ -95,7 +95,7 @@ export default function Contacto() {
                   <div>
                     <p className="text-slate-900 font-semibold">Atención Telefónica</p>
                     <a href="tel:+523320211181" className="text-slate-600 mt-1 hover:text-emerald-600 transition-colors block">
-                      +52 (33) 2021-1181
+                      +52 (33) 33746051
                     </a>
                   </div>
                 </div>
