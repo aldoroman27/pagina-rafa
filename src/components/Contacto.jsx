@@ -13,7 +13,7 @@ export default function Contacto() {
 
     try {
       // Hacemos la petición por detrás sin salir de la página
-      const response = await fetch(import.meta.env.VITE_FORMSPREE_URL, {
+      const response = await fetch(import.meta.env.FORMSPREE_URL, {
         method: 'POST',
         body: data,
         headers: {
