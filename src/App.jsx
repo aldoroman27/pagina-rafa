@@ -7,9 +7,13 @@ import Services from './components/Services';
 import Auditor from './components/Auditor';
 import Contacto from './components/Contacto';
 import PlantillaServicio from './components/PlantillaServicio';
+import PlantillaProyectos from './components/PlantillaProyectos';
 
-// 1. Importas tus datos
+
+// Importamos los datos para completar las páginas
 import { serviciosData } from './data/serviciosData';
+import { medioAmbienteData } from './data/medioAmbiente';
+import { proyectosData } from './data/proyectosPersonales';
 
 function Inicio() {
   return (
@@ -33,12 +37,28 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Inicio />} />
             
-            {/* 2. Creas las rutas dinámicamente con un map */}
+            {/* Creamos las rutas dinámicamente con un map */}
             {serviciosData.map((servicio, index) => (
               <Route 
                 key={index}
                 path={servicio.path} 
                 element={<PlantillaServicio {...servicio} />} 
+              />
+            ))}
+
+            {medioAmbienteData.map((servicio, index) => (
+              <Route 
+                key={`ma-${index}`}
+                path={servicio.path} 
+                element={<PlantillaServicio {...servicio} />} 
+              />
+            ))}
+
+            {proyectosData.map((proyecto, index) => (
+              <Route 
+                key={`proy-${index}`}
+                path={proyecto.path} 
+                element={<PlantillaProyectos {...proyecto} />} 
               />
             ))}
 
