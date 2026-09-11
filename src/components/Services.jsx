@@ -1,3 +1,6 @@
+
+import { Link } from 'react-router-dom';
+
 export default function Services() {
   const servicesList = [
     { id: 1, title: "Auditoría de Cumplimiento", description: "Evaluación exhaustiva para garantizar que tu empresa cumpla con toda la normativa ambiental federal, estatal y municipal.", icon: (<svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>) },
@@ -42,6 +45,17 @@ export default function Services() {
               </p>
             </div>
           ))}
+        </div>
+        <div className="mt-16 text-center">
+          <Link 
+            to="/services" 
+            className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-lg px-10 py-4 rounded-full transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
+          >
+            Ver todos los servicios
+            <svg className="w-5 h-5 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
         </div>
       </div>
     </section>

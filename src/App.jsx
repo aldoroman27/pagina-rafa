@@ -8,8 +8,7 @@ import Auditor from './components/Auditor';
 import Contacto from './components/Contacto';
 import PlantillaServicio from './components/PlantillaServicio';
 import PlantillaProyectos from './components/PlantillaProyectos';
-
-
+import PaginaServicios from './components/PaginasServicio/PaginaServicios';
 // Importamos los datos para completar las páginas
 import { serviciosData } from './data/serviciosData';
 import { medioAmbienteData } from './data/medioAmbiente';
@@ -39,6 +38,7 @@ export default function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Inicio />} />
+            <Route path="/services" element={<PaginaServicios />} />
             
             {/* Creamos las rutas dinámicamente con un map */}
             {serviciosData.map((servicio, index) => (

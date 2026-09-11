@@ -168,6 +168,7 @@ export default function Contacto() {
                   <option value="stps">Seguridad y Normatividad (STPS)</option>
                   <option value="medio-ambiente">Trámites de Medio Ambiente</option>
                   <option value="proyectos">Proyectos e Implementaciones</option>
+                  <option value=""></option>
                   <option value="otro">Otro trámite o gestoría</option>
                 </select>
               </div>
