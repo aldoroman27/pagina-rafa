@@ -78,17 +78,18 @@ export default function Navbar() {
     <>
       <nav className="bg-white shadow-sm sticky top-0 z-40 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-20 items-center">
-            
+          <div className="flex justify-between h-20 items-center"> 
             <div className="w-1/4 flex justify-start">
-              <button 
-                onClick={() => setIsOpen(true)}
-                className="p-2 -ml-2 rounded-md text-slate-600 hover:text-emerald-600 hover:bg-slate-100 focus:outline-none transition-colors"
-              >
-                <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              </button>
+            <button 
+              onClick={() => setIsOpen(true)}
+              className="flex items-center gap-2 p-2 -ml-2 rounded-md text-slate-600 hover:text-emerald-600 hover:bg-slate-100 focus:outline-none transition-colors"
+              aria-label="Abrir Menú"
+            >
+              <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+              <span className="text-emerald-600 font-bold text-sm uppercase">Menú</span>
+            </button>
             </div>
 
             <div className="w-2/4 flex justify-center">
