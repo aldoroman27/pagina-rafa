@@ -14,6 +14,7 @@ import PlantillaProyectos from './components/PlantillaProyectos';
 import { serviciosData } from './data/serviciosData';
 import { medioAmbienteData } from './data/medioAmbiente';
 import { proyectosData } from './data/proyectosPersonales';
+import ScrollHandler from './components/ScrollHandler';
 
 function Inicio() {
   return (
@@ -30,6 +31,8 @@ function Inicio() {
 export default function App() {
   return (
     <Router>
+
+      <ScrollHandler/>
       <div className="min-h-screen bg-slate-50 font-sans text-slate-900 flex flex-col">
         <Navbar />
         

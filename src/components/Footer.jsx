@@ -18,7 +18,7 @@ export default function Footer() {
               </span>
             </a>
             <p className="text-slate-600 max-w-sm mb-6">
-              Expertos en auditoría, gestión y cumplimiento normativo ambiental. Protegemos tu industria y el entorno con rigor técnico y certeza legal.
+              Expertos en auditoría, gestión y cumplimiento normativo ambiental e industrial. Protegemos tu industria y el entorno con rigor técnico y certeza legal.
             </p>
           </div>
 
