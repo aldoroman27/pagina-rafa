@@ -87,8 +87,7 @@ export default function Navbar() {
             >
               <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-              <span className="text-emerald-600 font-bold text-sm uppercase">Menú</span>
+              </svg>     
             </button>
             </div>
 
@@ -99,7 +98,7 @@ export default function Navbar() {
                   alt="Escudo Greenshield" 
                   className="h-10 sm:h-12 object-contain"
                 />
-                <span className="text-xl sm:text-2xl md:text-3xl font-black tracking-widest text-emerald-600 drop-shadow-sm truncate">
+                <span className="text-mid sm:text-2xl md:text-2xl font-black tracking-widest text-emerald-600 drop-shadow-sm truncate">
                   GREENSHIELD
                 </span>
               </Link>
