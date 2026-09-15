@@ -14,11 +14,13 @@ import { serviciosData } from './data/serviciosData';
 import { medioAmbienteData } from './data/medioAmbiente';
 import { proyectosData } from './data/proyectosPersonales';
 import ScrollHandler from './components/ScrollHandler';
+import Nosotros from './components/Nosotros';
 
 function Inicio() {
   return (
     <>
       <Hero />
+      <Nosotros />
       <Certificaciones />
       <Services />
       <Auditor />
