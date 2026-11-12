@@ -82,7 +82,7 @@ export default function Contacto() {
                   <div>
                     <p className="text-slate-900 font-semibold">Correo Electrónico</p>
                     <a href="mailto:GreenShieldConsultoria@outlook.com" className="text-slate-600 mt-1 hover:text-emerald-600 transition-colors">
-                      GreenShieldConsultoria@outlook.com
+                      gerencia@greenshieldconsultoria.com
                     </a>
                   </div>
                 </div>
