@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <a href="#" className="flex items-center gap-4 mb-6">
               <img 
-                src="/Firefly.png" 
+                src="/greenshield.jpeg" 
                 alt="Logo Greenshield Consultoría" 
                 className="h-16 sm:h-20 object-contain"
               />

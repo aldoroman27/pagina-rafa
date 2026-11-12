@@ -94,7 +94,7 @@ export default function Navbar() {
             <div className="w-2/4 flex justify-center">
               <Link to="/" className="flex items-center justify-center gap-2 sm:gap-3">
                 <img 
-                  src="/GREENSHIELD.png" 
+                  src="/greenshield.jpeg" 
                   alt="Escudo Greenshield" 
                   className="h-10 sm:h-12 object-contain"
                 />
